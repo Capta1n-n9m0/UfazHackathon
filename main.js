@@ -5,10 +5,10 @@ $(document).ready(() => {
         console.log(message);
     };
     $("#new_farm").ready(function (){
-        $("#new_farm").attr("action", `${server}new_farm`)
+        $("#new_farm").attr("action", `${server}/api/v1/new_farm`)
     })
     $("#update_constant").ready(function (){
-        $("#update_constant").attr("action", `${server}update_constant`)
+        $("#update_constant").attr("action", `${server}/api/v1/addconst`)
     })
     $("#farmers").DataTable({
         processing: true,
@@ -46,10 +46,10 @@ $(document).ready(() => {
             dataSrc: ""
         },
         columns: [
-            {data: "id"},
-            {data: "name"},
-            {data: "value"},
-            {data: "description"}
+            {data: "Id"},
+            {data: "Name"},
+            {data: "Value"},
+            {data: "Description"}
         ],
     });
     $("#submit").click(function () {
