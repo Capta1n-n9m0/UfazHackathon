@@ -1,0 +1,1214 @@
+[
+  {
+    "region": "Qakh",
+    "farmer": "A",
+    "n_field": 1,
+    "ha": 7,
+    "autumn": {
+      "ha": 55,
+      "date": "2021-11-22T00:00:00",
+      "depth": 22
+    },
+    "spring": {
+      "ha": 62,
+      "date": "2022-03-10T00:00:00",
+      "depth": 10
+    },
+    "seeding": {
+      "interval": 251,
+      "standart": true
+    },
+    "planting": {
+      "ha": 6,
+      "date": "2022-04-10T00:00:00",
+      "population": 23
+    },
+    "irrigation": {
+      "ha": 7,
+      "times": 4
+    },
+    "cultivation": {
+      "ha": 7,
+      "times": 4
+    },
+    "fertilizing": {
+      "ha": 6,
+      "integrity": true,
+      "date": "2022-03-27T00:00:00"
+    },
+    "topping": {
+      "ha": 4,
+      "spraying": true
+    },
+    "efficiency": 14000,
+    "quality": 49
+  },
+  {
+    "Id": 2,
+    "NO": 2,
+    "Region": "Qakh",
+    "FarmerId": 2,
+    "Farmer": {
+      "Id": 2,
+      "Name": "B"
+    },
+    "NumberOfField": 1,
+    "HA": 2,
+    "AutumnPloughingId": 2,
+    "AutumnPloughing": {
+      "Id": 2,
+      "AppliedHA": 20,
+      "Date": "0021-11-23T00:00:00",
+      "Depth": 28
+    },
+    "SpringPloughingId": 2,
+    "SpringPloughing": {
+      "Id": 2,
+      "AppliedHA": 12,
+      "Date": "0022-03-11T00:00:00",
+      "Depth": 11
+    },
+    "SeedingId": 2,
+    "Seeding": {
+      "Id": 2,
+      "IntervalCM": 72,
+      "Standart": true
+    },
+    "PlantingId": 2,
+    "Planting": {
+      "Id": 2,
+      "AppliedHA": 2,
+      "Date": "0022-04-11T00:00:00",
+      "PlantPopulation": 19
+    },
+    "IrrigationId": 2,
+    "Irrigation": {
+      "Id": 2,
+      "AppliedHA": 2,
+      "NumberOfTimes": 8
+    },
+    "CultivationId": 2,
+    "Cultivation": {
+      "Id": 2,
+      "AppliedHA": 2,
+      "NumberOfTimes": 8
+    },
+    "FertilizingId": 2,
+    "Fertilizing": {
+      "Id": 2,
+      "AppliedHA": 1,
+      "Integrity": false,
+      "Date": "0022-03-28T00:00:00"
+    },
+    "ToppingId": 2,
+    "Topping": {
+      "Id": 2,
+      "AppliedHA": 1,
+      "Spraying": false
+    },
+    "EfficiencyId": 2,
+    "Efficiency": {
+      "Id": 2,
+      "Tons": 13.5
+    },
+    "QualityId": 2,
+    "Quality": {
+      "Id": 2,
+      "Score": 42
+    }
+  },
+  {
+    "Id": 3,
+    "NO": 3,
+    "Region": "Qakh",
+    "FarmerId": 3,
+    "Farmer": {
+      "Id": 3,
+      "Name": "B"
+    },
+    "NumberOfField": 2,
+    "HA": 9,
+    "AutumnPloughingId": 3,
+    "AutumnPloughing": {
+      "Id": 3,
+      "AppliedHA": 90,
+      "Date": "0021-11-24T00:00:00",
+      "Depth": 20
+    },
+    "SpringPloughingId": 3,
+    "SpringPloughing": {
+      "Id": 3,
+      "AppliedHA": 8,
+      "Date": "0022-03-12T00:00:00",
+      "Depth": 12
+    },
+    "SeedingId": 3,
+    "Seeding": {
+      "Id": 3,
+      "IntervalCM": 324,
+      "Standart": true
+    },
+    "PlantingId": 3,
+    "Planting": {
+      "Id": 3,
+      "AppliedHA": 9,
+      "Date": "0022-04-12T00:00:00",
+      "PlantPopulation": 20
+    },
+    "IrrigationId": 3,
+    "Irrigation": {
+      "Id": 3,
+      "AppliedHA": 9,
+      "NumberOfTimes": 4
+    },
+    "CultivationId": 3,
+    "Cultivation": {
+      "Id": 3,
+      "AppliedHA": 8,
+      "NumberOfTimes": 9
+    },
+    "FertilizingId": 3,
+    "Fertilizing": {
+      "Id": 3,
+      "AppliedHA": 7,
+      "Integrity": false,
+      "Date": "0022-03-29T00:00:00"
+    },
+    "ToppingId": 3,
+    "Topping": {
+      "Id": 3,
+      "AppliedHA": 5,
+      "Spraying": true
+    },
+    "EfficiencyId": 3,
+    "Efficiency": {
+      "Id": 3,
+      "Tons": 12.5
+    },
+    "QualityId": 3,
+    "Quality": {
+      "Id": 3,
+      "Score": 53
+    }
+  },
+  {
+    "Id": 4,
+    "NO": 4,
+    "Region": "Qakh",
+    "FarmerId": 4,
+    "Farmer": {
+      "Id": 4,
+      "Name": "C"
+    },
+    "NumberOfField": 1,
+    "HA": 3,
+    "AutumnPloughingId": 4,
+    "AutumnPloughing": {
+      "Id": 4,
+      "AppliedHA": 30,
+      "Date": "0021-11-25T00:00:00",
+      "Depth": 15
+    },
+    "SpringPloughingId": 4,
+    "SpringPloughing": {
+      "Id": 4,
+      "AppliedHA": 3,
+      "Date": "0022-03-13T00:00:00",
+      "Depth": 15
+    },
+    "SeedingId": 4,
+    "Seeding": {
+      "Id": 4,
+      "IntervalCM": 107,
+      "Standart": true
+    },
+    "PlantingId": 4,
+    "Planting": {
+      "Id": 4,
+      "AppliedHA": 3,
+      "Date": "0022-04-13T00:00:00",
+      "PlantPopulation": 22.5
+    },
+    "IrrigationId": 4,
+    "Irrigation": {
+      "Id": 4,
+      "AppliedHA": 3,
+      "NumberOfTimes": 9
+    },
+    "CultivationId": 4,
+    "Cultivation": {
+      "Id": 4,
+      "AppliedHA": 3,
+      "NumberOfTimes": 8
+    },
+    "FertilizingId": 4,
+    "Fertilizing": {
+      "Id": 4,
+      "AppliedHA": 2,
+      "Integrity": true,
+      "Date": "0022-03-30T00:00:00"
+    },
+    "ToppingId": 4,
+    "Topping": {
+      "Id": 4,
+      "AppliedHA": 2,
+      "Spraying": true
+    },
+    "EfficiencyId": 4,
+    "Efficiency": {
+      "Id": 4,
+      "Tons": 15
+    },
+    "QualityId": 4,
+    "Quality": {
+      "Id": 4,
+      "Score": 63
+    }
+  },
+  {
+    "Id": 5,
+    "NO": 5,
+    "Region": "Qakh",
+    "FarmerId": 5,
+    "Farmer": {
+      "Id": 5,
+      "Name": "D"
+    },
+    "NumberOfField": 1,
+    "HA": 2,
+    "AutumnPloughingId": null,
+    "AutumnPloughing": null,
+    "SpringPloughingId": 5,
+    "SpringPloughing": {
+      "Id": 5,
+      "AppliedHA": 1,
+      "Date": "0022-03-14T00:00:00",
+      "Depth": 15
+    },
+    "SeedingId": 5,
+    "Seeding": {
+      "Id": 5,
+      "IntervalCM": 71,
+      "Standart": true
+    },
+    "PlantingId": 5,
+    "Planting": {
+      "Id": 5,
+      "AppliedHA": 2,
+      "Date": "0022-04-14T00:00:00",
+      "PlantPopulation": 20
+    },
+    "IrrigationId": 5,
+    "Irrigation": {
+      "Id": 5,
+      "AppliedHA": 1,
+      "NumberOfTimes": 2
+    },
+    "CultivationId": 5,
+    "Cultivation": {
+      "Id": 5,
+      "AppliedHA": 1,
+      "NumberOfTimes": 2
+    },
+    "FertilizingId": 5,
+    "Fertilizing": {
+      "Id": 5,
+      "AppliedHA": 0,
+      "Integrity": false,
+      "Date": "0022-03-31T00:00:00"
+    },
+    "ToppingId": 5,
+    "Topping": {
+      "Id": 5,
+      "AppliedHA": 1,
+      "Spraying": true
+    },
+    "EfficiencyId": 5,
+    "Efficiency": {
+      "Id": 5,
+      "Tons": 12
+    },
+    "QualityId": 5,
+    "Quality": {
+      "Id": 5,
+      "Score": 48
+    }
+  },
+  {
+    "Id": 6,
+    "NO": 6,
+    "Region": "Shaki",
+    "FarmerId": 6,
+    "Farmer": {
+      "Id": 6,
+      "Name": "E"
+    },
+    "NumberOfField": 1,
+    "HA": 4,
+    "AutumnPloughingId": 5,
+    "AutumnPloughing": {
+      "Id": 5,
+      "AppliedHA": 40,
+      "Date": "0021-11-27T00:00:00",
+      "Depth": 22
+    },
+    "SpringPloughingId": 6,
+    "SpringPloughing": {
+      "Id": 6,
+      "AppliedHA": 4,
+      "Date": "0022-03-15T00:00:00",
+      "Depth": 15
+    },
+    "SeedingId": 6,
+    "Seeding": {
+      "Id": 6,
+      "IntervalCM": 143,
+      "Standart": true
+    },
+    "PlantingId": 6,
+    "Planting": {
+      "Id": 6,
+      "AppliedHA": 4,
+      "Date": "0022-04-15T00:00:00",
+      "PlantPopulation": 21
+    },
+    "IrrigationId": 6,
+    "Irrigation": {
+      "Id": 6,
+      "AppliedHA": 4,
+      "NumberOfTimes": 7
+    },
+    "CultivationId": 6,
+    "Cultivation": {
+      "Id": 6,
+      "AppliedHA": 3,
+      "NumberOfTimes": 6
+    },
+    "FertilizingId": 6,
+    "Fertilizing": {
+      "Id": 6,
+      "AppliedHA": 2,
+      "Integrity": true,
+      "Date": "0022-04-01T00:00:00"
+    },
+    "ToppingId": 6,
+    "Topping": {
+      "Id": 6,
+      "AppliedHA": 2,
+      "Spraying": false
+    },
+    "EfficiencyId": 6,
+    "Efficiency": {
+      "Id": 6,
+      "Tons": 8.5
+    },
+    "QualityId": 6,
+    "Quality": {
+      "Id": 6,
+      "Score": 74
+    }
+  },
+  {
+    "Id": 7,
+    "NO": 7,
+    "Region": "Shaki",
+    "FarmerId": 7,
+    "Farmer": {
+      "Id": 7,
+      "Name": "E"
+    },
+    "NumberOfField": 2,
+    "HA": 2,
+    "AutumnPloughingId": 6,
+    "AutumnPloughing": {
+      "Id": 6,
+      "AppliedHA": 20,
+      "Date": "0021-11-28T00:00:00",
+      "Depth": 22
+    },
+    "SpringPloughingId": 7,
+    "SpringPloughing": {
+      "Id": 7,
+      "AppliedHA": 1,
+      "Date": "0022-05-21T00:00:00",
+      "Depth": 15
+    },
+    "SeedingId": 7,
+    "Seeding": {
+      "Id": 7,
+      "IntervalCM": 71,
+      "Standart": true
+    },
+    "PlantingId": 7,
+    "Planting": {
+      "Id": 7,
+      "AppliedHA": 2,
+      "Date": "0022-04-16T00:00:00",
+      "PlantPopulation": 25.5
+    },
+    "IrrigationId": 7,
+    "Irrigation": {
+      "Id": 7,
+      "AppliedHA": 2,
+      "NumberOfTimes": 10
+    },
+    "CultivationId": 7,
+    "Cultivation": {
+      "Id": 7,
+      "AppliedHA": 2,
+      "NumberOfTimes": 9
+    },
+    "FertilizingId": 7,
+    "Fertilizing": {
+      "Id": 7,
+      "AppliedHA": 1,
+      "Integrity": false,
+      "Date": "0022-04-02T00:00:00"
+    },
+    "ToppingId": 7,
+    "Topping": {
+      "Id": 7,
+      "AppliedHA": 1,
+      "Spraying": true
+    },
+    "EfficiencyId": 7,
+    "Efficiency": {
+      "Id": 7,
+      "Tons": 17
+    },
+    "QualityId": 7,
+    "Quality": {
+      "Id": 7,
+      "Score": 78
+    }
+  },
+  {
+  [
+    {
+      "id": 1,
+      "region": "Qakh",
+      "farmer": "Farmer A",
+      "n_fields": 1,
+      "ha": 7,
+      "autumn": 275,
+      "spring": 0,
+      "seeding": 99,
+      "planting": 0,
+      "irrigation": 0,
+      "cultivation": 100,
+      "fertilizing": 100,
+      "topping": 57,
+      "efficiency": 100,
+      "quality": 49,
+      "index": 78
+    },
+    {
+      "id": 2,
+      "region": "Qakh",
+      "farmer": "Farmer B",
+      "n_fields": 1,
+      "ha": 2,
+      "autumn": 500,
+      "spring": 60,
+      "seeding": 100,
+      "planting": 0,
+      "irrigation": 100,
+      "cultivation": 100,
+      "fertilizing": 0,
+      "topping": 0,
+      "efficiency": 87,
+      "quality": 42,
+      "index": 98
+    },
+    {
+      "id": 3,
+      "region": "Qakh",
+      "farmer": "Farmer B",
+      "n_fields": 2,
+      "ha": 9,
+      "autumn": 250,
+      "spring": 17,
+      "seeding": 100,
+      "planting": 0,
+      "irrigation": 0,
+      "cultivation": 88,
+      "fertilizing": 0,
+      "topping": 55,
+      "efficiency": 62,
+      "quality": 53,
+      "index": 62
+    },
+    {
+      "id": 4,
+      "region": "Qakh",
+      "farmer": "Farmer C",
+      "n_fields": 1,
+      "ha": 3,
+      "autumn": 0,
+      "spring": 30,
+      "seeding": 97,
+      "planting": 0,
+      "irrigation": 100,
+      "cultivation": 100,
+      "fertilizing": 100,
+      "topping": 66,
+      "efficiency": 100,
+      "quality": 63,
+      "index": 65
+    },
+    {
+      "id": 5,
+      "region": "Qakh",
+      "farmer": "Farmer D",
+      "n_fields": 1,
+      "ha": 2,
+      "autumn": 0,
+      "spring": 20,
+      "seeding": 96,
+      "planting": 0,
+      "irrigation": 50,
+      "cultivation": 50,
+      "fertilizing": 0,
+      "topping": 50,
+      "efficiency": 50,
+      "quality": 48,
+      "index": 36
+    },
+    {
+      "id": 6,
+      "region": "Shaki",
+      "farmer": "Farmer E",
+      "n_fields": 1,
+      "ha": 4,
+      "autumn": 350,
+      "spring": 50,
+      "seeding": 98,
+      "planting": 0,
+      "irrigation": 0,
+      "cultivation": 75,
+      "fertilizing": 100,
+      "topping": 0,
+      "efficiency": -37,
+      "quality": 74,
+      "index": 70
+    },
+    {
+      "id": 7,
+      "region": "Shaki",
+      "farmer": "Farmer E",
+      "n_fields": 2,
+      "ha": 2,
+      "autumn": 350,
+      "spring": 0,
+      "seeding": 96,
+      "planting": 0,
+      "irrigation": 100,
+      "cultivation": 100,
+      "fertilizing": 0,
+      "topping": 50,
+      "efficiency": 100,
+      "quality": 78,
+      "index": 87
+    },
+    {
+      "id": 8,
+      "region": "Shaki",
+      "farmer": "Farmer E",
+      "n_fields": 3,
+      "ha": 2,
+      "autumn": 0,
+      "spring": 50,
+      "seeding": 0,
+      "planting": 0,
+      "irrigation": 0,
+      "cultivation": 50,
+      "fertilizing": 100,
+      "topping": 50,
+      "efficiency": 100,
+      "quality": 80,
+      "index": 43
+    },
+    {
+      "id": 9,
+      "region": "Shaki",
+      "farmer": "Farmer F",
+      "n_fields": 1,
+      "ha": 4,
+      "autumn": 500,
+      "spring": 525,
+      "seeding": 100,
+      "planting": 0,
+      "irrigation": 0,
+      "cultivation": 75,
+      "fertilizing": 100,
+      "topping": 50,
+      "efficiency": -25,
+      "quality": 45,
+      "index": 137
+    },
+    {
+      "id": 10,
+      "region": "Zaqatala",
+      "farmer": "Farmer X",
+      "n_fields": 1,
+      "ha": 35,
+      "autumn": 50,
+      "spring": 55,
+      "seeding": 0,
+      "planting": 0,
+      "irrigation": 8,
+      "cultivation": 5,
+      "fertilizing": 100,
+      "topping": 0,
+      "efficiency": 50,
+      "quality": 77,
+      "index": 34
+    },
+    {
+      "id": 11,
+      "region": "Zaqatala",
+      "farmer": "Farmer Y",
+      "n_fields": 1,
+      "ha": 45,
+      "autumn": 25,
+      "spring": 41,
+      "seeding": 0,
+      "planting": 0,
+      "irrigation": 8,
+      "cultivation": 8,
+      "fertilizing": 100,
+      "topping": 4,
+      "efficiency": 100,
+      "quality": 34,
+      "index": 32
+    },
+    {
+      "id": 12,
+      "region": "Zaqatala",
+      "farmer": "Farmer Z",
+      "n_fields": 1,
+      "ha": 56,
+      "autumn": 35,
+      "spring": 4,
+      "seeding": 0,
+      "planting": 0,
+      "irrigation": 8,
+      "cultivation": 8,
+      "fertilizing": 100,
+      "topping": 5,
+      "efficiency": 100,
+      "quality": 75,
+      "index": 33
+    },
+    {
+      "id": 13,
+      "region": "Zaqatala",
+      "farmer": "Farmer Z",
+      "n_fields": 2,
+      "ha": 21,
+      "autumn": 25,
+      "spring": 0,
+      "seeding": 0,
+      "planting": 0,
+      "irrigation": 0,
+      "cultivation": 4,
+      "fertilizing": 100,
+      "topping": 0,
+      "efficiency": 75,
+      "quality": 80,
+      "index": 28
+    }
+  ]
+  "Id"
+  :
+  8,
+  "NO"
+  :
+  8,
+  "Region"
+  :
+  "Shaki",
+  "FarmerId"
+  :
+  8,
+  "Farmer"
+  :
+  {
+    "Id": 8,
+    "Name": "E"
+  },
+  "NumberOfField"
+  :
+  3,
+  "HA"
+  :
+  2,
+  "AutumnPloughingId"
+  :
+  null,
+  "AutumnPloughing"
+  :
+  null,
+  "SpringPloughingId"
+  :
+  8,
+  "SpringPloughing"
+  :
+  {
+    "Id": 8,
+    "AppliedHA": 2,
+    "Date": "0022-03-22T00:00:00",
+    "Depth": 15
+  },
+  "SeedingId"
+  :
+  8,
+  "Seeding"
+  :
+  {
+    "Id": 8,
+    "IntervalCM": 71,
+    "Standart": false
+  },
+  "PlantingId"
+  :
+  8,
+  "Planting"
+  :
+  {
+    "Id": 8,
+    "AppliedHA": 2,
+    "Date": "0022-04-17T00:00:00",
+    "PlantPopulation": 26
+  },
+  "IrrigationId"
+  :
+  8,
+  "Irrigation"
+  :
+  {
+    "Id": 8,
+    "AppliedHA": 2,
+    "NumberOfTimes": 7
+  },
+  "CultivationId"
+  :
+  8,
+  "Cultivation"
+  :
+  {
+    "Id": 8,
+    "AppliedHA": 1,
+    "NumberOfTimes": 12
+  },
+  "FertilizingId"
+  :
+  8,
+  "Fertilizing"
+  :
+  {
+    "Id": 8,
+    "AppliedHA": 1,
+    "Integrity": true,
+    "Date": "0022-04-03T00:00:00"
+  },
+  "ToppingId"
+  :
+  8,
+  "Topping"
+  :
+  {
+    "Id": 8,
+    "AppliedHA": 1,
+    "Spraying": true
+  },
+  "EfficiencyId"
+  :
+  8,
+  "Efficiency"
+  :
+  {
+    "Id": 8,
+    "Tons": 15.5
+  },
+  "QualityId"
+  :
+  8,
+  "Quality"
+  :
+  {
+    "Id": 8,
+    "Score": 80
+  }
+  },
+  {
+    "Id": 9,
+    "NO": 9,
+    "Region": "Shaki",
+    "FarmerId": 9,
+    "Farmer": {
+      "Id": 9,
+      "Name": "F"
+    },
+    "NumberOfField": 1,
+    "HA": 4,
+    "AutumnPloughingId": 7,
+    "AutumnPloughing": {
+      "Id": 7,
+      "AppliedHA": 40,
+      "Date": "0021-12-15T00:00:00",
+      "Depth": 30
+    },
+    "SpringPloughingId": 9,
+    "SpringPloughing": {
+      "Id": 9,
+      "AppliedHA": 35,
+      "Date": "0022-03-23T00:00:00",
+      "Depth": 17
+    },
+    "SeedingId": 9,
+    "Seeding": {
+      "Id": 9,
+      "IntervalCM": 144,
+      "Standart": true
+    },
+    "PlantingId": 9,
+    "Planting": {
+      "Id": 9,
+      "AppliedHA": 3,
+      "Date": "0022-04-18T00:00:00",
+      "PlantPopulation": 22
+    },
+    "IrrigationId": 9,
+    "Irrigation": {
+      "Id": 9,
+      "AppliedHA": 4,
+      "NumberOfTimes": 6
+    },
+    "CultivationId": 9,
+    "Cultivation": {
+      "Id": 9,
+      "AppliedHA": 3,
+      "NumberOfTimes": 5
+    },
+    "FertilizingId": 9,
+    "Fertilizing": {
+      "Id": 9,
+      "AppliedHA": 3,
+      "Integrity": true,
+      "Date": "0022-04-04T00:00:00"
+    },
+    "ToppingId": 9,
+    "Topping": {
+      "Id": 9,
+      "AppliedHA": 2,
+      "Spraying": true
+    },
+    "EfficiencyId": 9,
+    "Efficiency": {
+      "Id": 9,
+      "Tons": 9
+    },
+    "QualityId": 9,
+    "Quality": {
+      "Id": 9,
+      "Score": 45
+    }
+  },
+  {
+    "Id": 10,
+    "NO": 10,
+    "Region": "Zaqatala",
+    "FarmerId": 10,
+    "Farmer": {
+      "Id": 10,
+      "Name": "X"
+    },
+    "NumberOfField": 1,
+    "HA": 35,
+    "AutumnPloughingId": 8,
+    "AutumnPloughing": {
+      "Id": 8,
+      "AppliedHA": 35,
+      "Date": "0022-01-10T00:00:00",
+      "Depth": 25
+    },
+    "SpringPloughingId": 10,
+    "SpringPloughing": {
+      "Id": 10,
+      "AppliedHA": 26,
+      "Date": "0022-03-24T00:00:00",
+      "Depth": 20
+    },
+    "SeedingId": 10,
+    "Seeding": {
+      "Id": 10,
+      "IntervalCM": 125,
+      "Standart": false
+    },
+    "PlantingId": 10,
+    "Planting": {
+      "Id": 10,
+      "AppliedHA": 4,
+      "Date": "0022-04-19T00:00:00",
+      "PlantPopulation": 24
+    },
+    "IrrigationId": 10,
+    "Irrigation": {
+      "Id": 10,
+      "AppliedHA": 3,
+      "NumberOfTimes": 9
+    },
+    "CultivationId": 10,
+    "Cultivation": {
+      "Id": 10,
+      "AppliedHA": 2,
+      "NumberOfTimes": 9
+    },
+    "FertilizingId": 10,
+    "Fertilizing": {
+      "Id": 10,
+      "AppliedHA": 2,
+      "Integrity": true,
+      "Date": "0022-04-05T00:00:00"
+    },
+    "ToppingId": 10,
+    "Topping": {
+      "Id": 10,
+      "AppliedHA": 2,
+      "Spraying": false
+    },
+    "EfficiencyId": 10,
+    "Efficiency": {
+      "Id": 10,
+      "Tons": 12
+    },
+    "QualityId": 10,
+    "Quality": {
+      "Id": 10,
+      "Score": 77
+    }
+  },
+  {
+    "Id": 11,
+    "NO": 11,
+    "Region": "Zaqatala",
+    "FarmerId": 11,
+    "Farmer": {
+      "Id": 11,
+      "Name": "Y"
+    },
+    "NumberOfField": 1,
+    "HA": 45,
+    "AutumnPloughingId": 9,
+    "AutumnPloughing": {
+      "Id": 9,
+      "AppliedHA": 45,
+      "Date": "0022-01-15T00:00:00",
+      "Depth": 20
+    },
+    "SpringPloughingId": 11,
+    "SpringPloughing": {
+      "Id": 11,
+      "AppliedHA": 37,
+      "Date": "0022-03-25T00:00:00",
+      "Depth": 15
+    },
+    "SeedingId": 11,
+    "Seeding": {
+      "Id": 11,
+      "IntervalCM": 162,
+      "Standart": true
+    },
+    "PlantingId": 11,
+    "Planting": {
+      "Id": 11,
+      "AppliedHA": 4,
+      "Date": "0022-04-20T00:00:00",
+      "PlantPopulation": 22.5
+    },
+    "IrrigationId": 11,
+    "Irrigation": {
+      "Id": 11,
+      "AppliedHA": 4,
+      "NumberOfTimes": 8
+    },
+    "CultivationId": 11,
+    "Cultivation": {
+      "Id": 11,
+      "AppliedHA": 4,
+      "NumberOfTimes": 10
+    },
+    "FertilizingId": 11,
+    "Fertilizing": {
+      "Id": 11,
+      "AppliedHA": 3,
+      "Integrity": true,
+      "Date": "0022-04-06T00:00:00"
+    },
+    "ToppingId": 11,
+    "Topping": {
+      "Id": 11,
+      "AppliedHA": 2,
+      "Spraying": true
+    },
+    "EfficiencyId": 11,
+    "Efficiency": {
+      "Id": 11,
+      "Tons": 17
+    },
+    "QualityId": 11,
+    "Quality": {
+      "Id": 11,
+      "Score": 34
+    }
+  },
+  {
+    "Id": 12,
+    "NO": 12,
+    "Region": "Zaqatala",
+    "FarmerId": 12,
+    "Farmer": {
+      "Id": 12,
+      "Name": "Z"
+    },
+    "NumberOfField": 1,
+    "HA": 56,
+    "AutumnPloughingId": 10,
+    "AutumnPloughing": {
+      "Id": 10,
+      "AppliedHA": 40,
+      "Date": "0022-01-01T00:00:00",
+      "Depth": 25
+    },
+    "SpringPloughingId": 12,
+    "SpringPloughing": {
+      "Id": 12,
+      "AppliedHA": 5,
+      "Date": "0022-03-26T00:00:00",
+      "Depth": 15
+    },
+    "SeedingId": 12,
+    "Seeding": {
+      "Id": 12,
+      "IntervalCM": 201,
+      "Standart": true
+    },
+    "PlantingId": 12,
+    "Planting": {
+      "Id": 12,
+      "AppliedHA": 6,
+      "Date": "0022-04-21T00:00:00",
+      "PlantPopulation": 21.5
+    },
+    "IrrigationId": 12,
+    "Irrigation": {
+      "Id": 12,
+      "AppliedHA": 5,
+      "NumberOfTimes": 8
+    },
+    "CultivationId": 12,
+    "Cultivation": {
+      "Id": 12,
+      "AppliedHA": 5,
+      "NumberOfTimes": 7
+    },
+    "FertilizingId": 12,
+    "Fertilizing": {
+      "Id": 12,
+      "AppliedHA": 4,
+      "Integrity": true,
+      "Date": "0022-04-07T00:00:00"
+    },
+    "ToppingId": 12,
+    "Topping": {
+      "Id": 12,
+      "AppliedHA": 3,
+      "Spraying": true
+    },
+    "EfficiencyId": 12,
+    "Efficiency": {
+      "Id": 12,
+      "Tons": 16.5
+    },
+    "QualityId": 12,
+    "Quality": {
+      "Id": 12,
+      "Score": 75
+    }
+  },
+  {
+    "Id": 13,
+    "NO": 13,
+    "Region": "Zaqatala",
+    "FarmerId": 13,
+    "Farmer": {
+      "Id": 13,
+      "Name": "Z"
+    },
+    "NumberOfField": 2,
+    "HA": 21,
+    "AutumnPloughingId": 11,
+    "AutumnPloughing": {
+      "Id": 11,
+      "AppliedHA": 21,
+      "Date": "0021-12-04T00:00:00",
+      "Depth": 20
+    },
+    "SpringPloughingId": 13,
+    "SpringPloughing": {
+      "Id": 13,
+      "AppliedHA": 15,
+      "Date": "0022-04-20T00:00:00",
+      "Depth": 15
+    },
+    "SeedingId": 13,
+    "Seeding": {
+      "Id": 13,
+      "IntervalCM": 75,
+      "Standart": false
+    },
+    "PlantingId": 13,
+    "Planting": {
+      "Id": 13,
+      "AppliedHA": 2,
+      "Date": "0022-04-22T00:00:00",
+      "PlantPopulation": 23.5
+    },
+    "IrrigationId": 13,
+    "Irrigation": {
+      "Id": 13,
+      "AppliedHA": 2,
+      "NumberOfTimes": 7
+    },
+    "CultivationId": 13,
+    "Cultivation": {
+      "Id": 13,
+      "AppliedHA": 1,
+      "NumberOfTimes": 6
+    },
+    "FertilizingId": 13,
+    "Fertilizing": {
+      "Id": 13,
+      "AppliedHA": 1,
+      "Integrity": true,
+      "Date": "0022-04-08T00:00:00"
+    },
+    "ToppingId": 13,
+    "Topping": {
+      "Id": 13,
+      "AppliedHA": 1,
+      "Spraying": false
+    },
+    "EfficiencyId": 13,
+    "Efficiency": {
+      "Id": 13,
+      "Tons": 13
+    },
+    "QualityId": 13,
+    "Quality": {
+      "Id": 13,
+      "Score": 80
+    }
+  }
+]
