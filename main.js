@@ -1,4 +1,4 @@
-const server = "http://192.168.53.216/"
+const server = "http://192.168.51.182:7888"
 
 $(document).ready(() => {
     $.fn.dataTable.ext.errMode = function ( settings, helpPage, message ) {
@@ -13,9 +13,9 @@ $(document).ready(() => {
     $("#farmers").DataTable({
         processing: true,
         ajax: {
-            url: server + "farms",
+            url: `${server}/api/v1/farms`,
             crossDomain: true,
-            dataType: 'jsonp',
+            // dataType: 'jsonp',
             dataSrc: ""
         },
         columns: [
@@ -40,9 +40,9 @@ $(document).ready(() => {
     $("#consts").DataTable({
         processing: true,
         ajax: {
-            url: server+"consts",
+            url: `${server}/api/v1/consts`,
             crossDomain: true,
-            dataType: 'jsonp',
+            // dataType: 'jsonp',
             dataSrc: ""
         },
         columns: [
@@ -96,7 +96,7 @@ $(document).ready(() => {
         }
         data.Efficiency = {Tons: parseFloat($("#efficiency").val())}
         data.Quality = {Score: parseFloat($("#quality").val())}
-        let res = fetch(server+"new_farm",{
+        let res = fetch(`${server}/api/v1/new_farm`,{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

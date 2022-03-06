@@ -83,23 +83,23 @@
         <!-- HA -->
         <div class="mb-3">
             <label class="form-label" for="ha">Hectares:</label>
-            <input type="number" required autocomplete="off" class="form-control" id="ha" name="HA" >
+            <input type="number" required autocomplete="off" class="form-control" id="ha" name="HA" value="1">
         </div>
         <!-- Autumn -->
         <label class="form-label" for="autumn">Autumn ploughing:</label>
         <div class="container m-1 border rounded" id="autumn">
             <div class="mb-3">
                 <label class="form-label" for="autumn_ha">Applied hectares:</label>
-                <input type="number" required autocomplete="off" class="form-control" id="autumn_ha" name="autumn_ha">
+                <input type="number" required autocomplete="off" class="form-control" id="autumn_ha" name="autumn_ha" value="1">
             </div>
             <div class="mb-3">
                 <label class="form-label" for="autumn_date">Date:</label>
-                <input type="date" required autocomplete="off" class="form-control" id="autumn_date" name="autumn_date">
+                <input type="date" required autocomplete="off" class="form-control" id="autumn_date" name="autumn_date" value="2022-01-01">
             </div>
             <div class="mb-3">
                 <label class="form-label" for="autumn_depth">Depth:</label>
                 <input type="number" required autocomplete="off" class="form-control" id="autumn_depth"
-                       name="autumn_depth">
+                       name="autumn_depth" value="1">
             </div>
         </div>
         <!-- Spring -->
@@ -107,16 +107,16 @@
         <div class="container m-1 border rounded" id="spring">
             <div class="mb-3">
                 <label class="form-label" for="spring_ha">Applied hectares:</label>
-                <input type="number" required autocomplete="off" class="form-control" id="spring_ha" name="spring_ha">
+                <input type="number" required autocomplete="off" class="form-control" id="spring_ha" name="spring_ha" value="1">
             </div>
             <div class="mb-3">
                 <label class="form-label" for="spring_date">Date:</label>
-                <input type="date" required autocomplete="off" class="form-control" id="spring_date" name="spring_date">
+                <input type="date" required autocomplete="off" class="form-control" id="spring_date" name="spring_date" value="2022-01-01">
             </div>
             <div class="mb-3">
                 <label class="form-label" for="spring_depth">Depth:</label>
                 <input type="number" required autocomplete="off" class="form-control" id="spring_depth"
-                       name="spring_depth">
+                       name="spring_depth" value="1">
             </div>
         </div>
         <!-- Seeding -->
@@ -125,7 +125,7 @@
             <div class="mb-3">
                 <label class="form-label" for="seeding_interval">Interval cm:</label>
                 <input type="number" required autocomplete="off" class="form-control" id="seeding_interval"
-                       name="seeding_interval">
+                       name="seeding_interval" value="1">
             </div>
 
             <label class="form-label" for="seeding_standard">Standard:</label>
@@ -144,17 +144,17 @@
             <div class="mb-3">
                 <label class="form-label" for="planting_ha">Applied hectares:</label>
                 <input class="form-control" type="number" required autocomplete="off" id="planting_ha"
-                       name="planting_ha">
+                       name="planting_ha" value="1">
             </div>
             <div class="mb-3">
                 <label class="form-label" for="planting_date">Date:</label>
                 <input class="form-control" type="date" required autocomplete="off" id="planting_date"
-                       name="planting_date">
+                       name="planting_date" value="2022-01-01">
             </div>
             <div class="mb-3">
                 <label class="form-label" for="planting_population">Planting population:</label>
                 <input class="form-control" type="number" required autocomplete="off" id="planting_population"
-                       name="planting_population">
+                       name="planting_population" value="1">
             </div>
         </div>
         <!-- Irrigation -->
@@ -163,12 +163,12 @@
             <div class="mb-3">
                 <label class="form-label" for="irrigation_ha">Applied hectares:</label>
                 <input class="form-control" type="number" required autocomplete="off" id="irrigation_ha"
-                       name="irrigation_ha">
+                       name="irrigation_ha" value="1">
             </div>
             <div class="mb-3">
                 <label class="form-label" for="irrigation_times">Number of times</label>
                 <input class="form-control" type="number" required autocomplete="off" id="irrigation_times"
-                       name="irrigation_times">
+                       name="irrigation_times" value="1">
             </div>
         </div>
         <!-- Cultivation -->
@@ -177,12 +177,12 @@
             <div class="mb-3">
                 <label class="form-label" for="cultivation_ha">Applied hectares:</label>
                 <input class="form-control" type="number" required autocomplete="off" id="cultivation_ha"
-                       name="cultivation_ha">
+                       name="cultivation_ha" value="1">
             </div>
             <div class="mb-3">
                 <label class="form-label" for="cultivation_times">Number of times:</label>
                 <input class="form-control" type="number" required autocomplete="off" id="cultivation_times"
-                       name="cultivations_times">
+                       name="cultivations_times" value="1">
             </div>
         </div>
         <!-- Fertilizing -->
@@ -191,7 +191,7 @@
             <div class="mb-3">
                 <label class="form-label" for="fertilizing_ha">Applied hectares:</label>
                 <input class="form-control" type="number" required autocomplete="off" id="fertilizing_ha"
-                       name="fertilizing_ha">
+                       name="fertilizing_ha" value="1">
             </div>
             <label class="form-label" for="fertilizing_integrity">Integrity:</label>
             <div class="mb-3" id="fertilizing_integrity">
@@ -204,7 +204,7 @@
             </div>
             <div class="mb-3">
                 <label class="form-label" for="fertilizing_date">Date:</label>
-                <input class="form-control" type="date" id="fertilizing_date" name="fertilizing_date">
+                <input class="form-control" type="date" id="fertilizing_date" name="fertilizing_date" value="2022-01-01">
             </div>
         </div>
         <!-- Topping -->
@@ -212,7 +212,7 @@
         <div class="container m-1 border rounded" id="topping">
             <div class="mb-3">
                 <label class="form-label" for="topping_ha">Applying hectares:</label>
-                <input class="form-control" type="number" required autocomplete="off" id="topping_ha" name="topping_ha">
+                <input class="form-control" type="number" required autocomplete="off" id="topping_ha" name="topping_ha" value="1">
             </div>
             <label class="form-label" for="topping_spray">Spraying:</label>
             <div class="mb-3" id="topping_spray">
@@ -226,12 +226,12 @@
         <!-- Efficiency -->
         <div class="mb-3">
             <label class="form-label" for="efficiency">Efficiency:</label>
-            <input class="form-control" type="number" required autocomplete="off" id="efficiency" name="Efficiency">
+            <input class="form-control" type="number" required autocomplete="off" id="efficiency" name="Efficiency" value="1">
         </div>
         <!-- Quality -->
         <div class="mb-3">
             <label class="form-label" for="quality">Quality:</label>
-            <input class="form-control" type="number" required autocomplete="off" id="quality" name="Quality">
+            <input class="form-control" type="number" required autocomplete="off" id="quality" name="Quality" value="1">
         </div>
 
     </form>
